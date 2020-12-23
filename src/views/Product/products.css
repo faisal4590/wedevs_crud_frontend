@@ -1,0 +1,14 @@
+.v-speed-dial--top {
+  top: -30px !important;
+}
+
+.product-card {
+  opacity: 0.8;
+  transition: opacity 0.5s ease;
+}
+.product-card:hover {
+  opacity: 1;
+  box-shadow: 0 38px 36px 0 #212121;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}

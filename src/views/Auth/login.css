@@ -1,0 +1,15 @@
+.RegisterToggle:hover,
+.loginToggle:hover {
+  cursor: pointer;
+}
+.auth_container {
+  opacity: 0.6;
+  transition: opacity 1s ease;
+}
+.auth_container:hover {
+  opacity: 1;
+  box-shadow: 0 38px 36px 0 #212121;
+  cursor: pointer;
+  transition: opacity 1s ease;
+  background-color: rgba(41, 55, 69, 0.7);
+}
